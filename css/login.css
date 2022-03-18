@@ -78,45 +78,82 @@ h3#txtCadastrar{
     color: bisque;
 }
 @media only screen and (max-width:400px) {
-  
-    
-  .digitarUsuario {
+#cabecalho {
+    color:black;
+    font-size: 34px
+}
+
+.digitarUsuario {
     margin: 15% auto;
     color: black;
-  }
+}
 
-  .digitarSenha {
+#usuario {
+    width:250px;
+    margin-left: -20px;
+}
+.digitarSenha {
     
     margin: 15% auto;
     color:black;
-  }
-
-  #btnLogin {
+}
+#senha {
+    width:250px;
+    margin-left: -20px; 
+}
+#btnLogin {
     width:250px;
     margin-top: 25%;
     margin-left:-20px;
     background-color: #afadbc;
-  }
-
-  #txtCadastrar {
+}
+#txtCadastrar {
     margin-top:15%;
     font-size: 24px;
     
-  }
-
-  #cabecalho {
-    color:black;
-    font-size: 34px
-  }
-
-  #usuario {
-    width:250px;
-    margin-left: -20px;
-  }
-
-  #senha {
-    width:250px;
-    margin-left: -20px; 
-  }
+}  
     
+}
+
+@media screen and (max-width: 800px) {
+
+    #cabecalho {
+        margin-top: 15%;      
+        font-size: 34px
+    }
+
+    .digitarUsuario {
+        font-size: 35px;
+        margin: 15% auto;
+      
+    }
+
+    #usuario {
+        width:450px;
+        margin-left: -97px;
+    }
+    
+    .digitarSenha {
+        font-size:35px;
+        margin: 15% auto;
+      
+    } 
+    
+    #senha {
+
+        width:450px;
+        margin-left: -97px; 
+    }
+
+    #btnLogin {
+        width:450px;
+        margin-top: 25%;
+        margin-left:-97px;
+        background-color: #afadbc;
+    }
+    #txtCadastrar {
+        margin-top:15%;
+        font-size: 42px;
+        
+    }  
 }
