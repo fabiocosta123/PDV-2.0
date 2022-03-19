@@ -1,3 +1,5 @@
+/* Código para aparelhos até 400px*/
+
 @media only screen and (max-width:400px) {
 
     body {
@@ -11,7 +13,7 @@
         font-size:30px;
         margin-top: 15%;
         text-align: center;
-        color: rgb(12, 6, 71);
+        color: rgb(225, 224, 230);
     }
 
     h3{
@@ -30,6 +32,7 @@
 
     
 }
+/* Para aparelhos até 750px*/
 
 @media only screen  and (min-width:401px) and (max-width:751px) {
     body {
@@ -61,6 +64,7 @@
     }
     
 }
+/*Para aparelhos até 1000px*/
 
 @media only screen and (min-width:751px) and (max-width: 1000px) {
     body {
@@ -94,20 +98,32 @@
 
 }
 
-
+/*Para desktop*/
+@media only screen and (min-width:800px) and (max-width:1280px){
 body {
-    background-color: aqua;
+    
+    display: inline;
+    background-color: #0000FF;
+    width: 300%;
+    height: 100%;
    
 }
 
+
+
 h2 {
+   
     margin-top: 5%;
-    margin-left: 38%;
+    margin-left: 19%;
     font-size: 50px;
+    color: blanchedalmond;
+}
+h3 {
+    color: blanchedalmond;
 }
 
 img {
-    align-items: center;
+   
     width: 15%;
     height: 15%;
 }
@@ -121,33 +137,46 @@ img {
     margin-left: 7%;
     margin-top: 5%;
 }
+
+
 #financeiro {
     margin-left: 2%;
 }
 
 
 
-#cadastroProduto {
+.cadastroProduto {
     width: 1500px;
     height: 1500px;
-    margin-left: -25%;
-    margin-top: -13%;
+    margin-left: 75%;
+    margin-top: -16%;
+}
+#cadastrarProduto {
+    font-size: 30px;
 }
 
 .aberturaCaixa {
+   
     margin-left: 45%;
-    margin-top:-107%;
+    margin-top:-99%;
 
 }
 
 #txtAbrirCaixa {
-    font-size: 30px;
-    padding-top: 10%;
+
+    font-size: 35px;
+
+   
+    
  
 }
 
 #aberturaCaixa {
-    width: 145%;
-    height: 145%;
+    width: 1470px;
+    height: 1470px;
+  
 }
+}
+
+
 
