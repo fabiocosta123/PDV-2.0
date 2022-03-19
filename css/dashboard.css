@@ -1,7 +1,153 @@
 @media only screen and (max-width:400px) {
+
+    body {
+        border: 1px solid blue;
+        background-color: blueviolet;
+        width: 100%;
+        height: 100%;
+    }
+
+    h2 {
+        font-size:30px;
+        margin-top: 15%;
+        text-align: center;
+        color: rgb(12, 6, 71);
+    }
+
+    h3{
+        text-align: center;
+        margin-top: 5%;
+        padding-bottom: 5%;
+        color: aliceblue;
+    }
+
     img {
-        width: 30px;
-        height: 30px;
+        margin-left: 38%;
+        padding-bottom: 5%;
+        width: 30%;
+        height: 30%;
+    }
+
+    
+}
+
+@media only screen  and (min-width:401px) and (max-width:751px) {
+    body {
+        background-color: yellow;
+        width: 100%;
+        height: 100%;
+        border: 1px solid red;
+    }
+
+    h2 {
+        font-size:30px;
+        margin-top: 8%;
+        text-align: center;
+        color:black;
+    }
+
+    h3{
+        text-align: center;
+        margin-top: 5%;
+        padding-bottom: 5%;
+        color: black;
+    }
+
+    img {
+        margin-left: 38%;
+        padding-bottom: 5%;
+        width: 30%;
+        height: 30%;
     }
     
 }
+
+@media only screen and (min-width:751px) and (max-width: 1000px) {
+    body {
+        display: flex;
+        background-color: #0000FF;
+        border: 1px solid white;
+        width: 100%;
+        height: 100%;
+    }
+    h2 {
+        font-size:30px;
+        margin-top: 3%;
+        margin-left:45%;
+        color:white;
+    }
+
+    h3{
+        text-align: center;
+        margin-top: 5%;
+        padding-bottom: 5%;
+        color:white;
+        margin-right: 3%;
+    }
+
+    img {
+        margin-left: 38%;
+        padding-bottom: 5%;
+        width: 30%;
+        height: 30%;
+    }
+
+}
+
+
+body {
+    background-color: aqua;
+   
+}
+
+h2 {
+    margin-top: 5%;
+    margin-left: 38%;
+    font-size: 50px;
+}
+
+img {
+    align-items: center;
+    width: 15%;
+    height: 15%;
+}
+
+
+#txtDashboard {
+    margin-left: 5%;
+    font-size: 30px;
+}
+.financeiro {
+    margin-left: 7%;
+    margin-top: 5%;
+}
+#financeiro {
+    margin-left: 2%;
+}
+
+
+
+#cadastroProduto {
+    width: 1500px;
+    height: 1500px;
+    margin-left: -25%;
+    margin-top: -13%;
+}
+
+.aberturaCaixa {
+    margin-left: 45%;
+    margin-top:-107%;
+
+}
+
+#txtAbrirCaixa {
+    font-size: 30px;
+    padding-top: 10%;
+ 
+}
+
+#aberturaCaixa {
+    width: 145%;
+    height: 145%;
+}
+
