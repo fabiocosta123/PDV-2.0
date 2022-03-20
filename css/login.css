@@ -1,33 +1,34 @@
 body{
     width: 100%;
-    background-color:#0000FF;
+    background-color: #0000FF;
+ 
    
 }
+
 
 #cabecalho {
     text-align: center;
     margin-top: 5%;
     font-size: 50px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: bisque;
 }
 
 section.login{
     width: 55%;
     height: 450px;
-    border: 2px #0000FF solid;
+    border: 2px bisque solid;
     margin-left: 23%;
     margin-top: 3%;
 }
 
 #usuario {
-    display: flex;
+
     text-align: center;
-    justify-content: center;
+   
     width: 50%;
     border: #0000FF 1px solid;
     margin-left: 24%;
-    margin-top: 5%;
+    margin-top: 1%;
 }
 
 #senha {
@@ -62,14 +63,14 @@ input{
 .digitarUsuario {
     text-align: center;
     font-size: 25px;
-    padding-top: 5%;
+    
     color: bisque;
 }
 
 .digitarSenha {
     text-align: center;
     font-size: 25px;
-    padding-top: 5%;
+    padding-top: 3%;
     color: bisque;
 }
 
