@@ -4,13 +4,17 @@ body{
  
    
 }
+.login {
+    background-color: white;
+}
 
 
 #cabecalho {
+    
     text-align: center;
     margin-top: 5%;
     font-size: 50px;
-    color: bisque;
+    color:black;
 }
 
 section.login{
@@ -46,6 +50,7 @@ input{
     justify-items: center;
     width: 30px;
     height: 35px;
+
 }
 
 #btnLogin {
@@ -53,7 +58,7 @@ input{
     width: 50%;
     height: 65px;
     margin-left: 24%;
-    margin-top: 8%;
+    margin-top: 5%;
     background-color: rgb(127, 132, 173);
     color:#f9f9fa;
     font-weight: bold;
@@ -65,20 +70,29 @@ input{
     text-align: center;
     font-size: 25px;
     
-    color: bisque;
+    color:black;
 }
 
 .digitarSenha {
     text-align: center;
     font-size: 25px;
-    padding-top: 3%;
-    color: bisque;
+    padding-top: 2%;
+    color: black;
 }
 
 h3#txtCadastrar{
     padding-top: 1%;
     padding-left: 63%;
     color: bisque;
+}
+
+#cadastrar {
+    font-size: 20px;
+    color: rgb(7, 7, 7);
+    padding-top: 2%;
+    margin-left: 63%;
+    cursor: pointer;
+  
 }
 
 

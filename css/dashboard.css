@@ -147,10 +147,8 @@
 /*Para desktop*/
 
 body {
-    
     display: flex;
-
-    background-color: #0000FF;
+    background-color:#0000FF ;
     width: 300%;
     height: 100%;
    
