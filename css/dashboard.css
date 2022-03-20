@@ -145,10 +145,10 @@
 }
 
 /*Para desktop*/
-@media only screen and (min-width:800px) and (max-width:1280px){
+
 body {
     
-    display: inline;
+    display: flex;
 
     background-color: #0000FF;
     width: 300%;
@@ -161,7 +161,7 @@ body {
 h2 {
    
     margin-top: 5%;
-    margin-left: 19%;
+    text-align: center;
     font-size: 50px;
     color: blanchedalmond;
 }
@@ -170,7 +170,7 @@ h3 {
 }
 
 img {
-   
+    margin-top: 1%;
     width: 15%;
     height: 15%;
 }
@@ -178,11 +178,11 @@ img {
 
 #txtDashboard {
     margin-left: 5%;
-    font-size: 30px;
+    font-size: 35px;
 }
 .financeiro {
-    margin-left: 7%;
-    margin-top: 5%;
+    margin-left: 5%;
+    margin-top: 15%;
 }
 
 
@@ -196,15 +196,21 @@ img {
     width: 1500px;
     height: 1500px;
     margin-left: 75%;
-    margin-top: -16%;
+    margin-top: -18%;
+    
+}
+
+#cadastroProduto {
+    margin-left: 3%;
+    padding-top: 1%;
 }
 #cadastrarProduto {
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .aberturaCaixa {
    
-    margin-left: 45%;
+    margin-left: 43%;
     margin-top:-99%;
 
 }
@@ -219,11 +225,11 @@ img {
 }
 
 #aberturaCaixa {
-    width: 1470px;
-    height: 1470px;
+    width: 1460px;
+    height: 1460px;
   
 }
-}
+
 
 
 
