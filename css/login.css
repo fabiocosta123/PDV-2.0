@@ -58,6 +58,7 @@ input{
     color:#f9f9fa;
     font-weight: bold;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .digitarUsuario {

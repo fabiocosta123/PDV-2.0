@@ -183,6 +183,7 @@ img {
 .financeiro {
     margin-left: 5%;
     margin-top: 15%;
+    cursor: pointer;
 }
 
 
@@ -197,6 +198,7 @@ img {
     height: 1500px;
     margin-left: 75%;
     margin-top: -18%;
+    cursor: pointer;
     
 }
 
@@ -212,6 +214,7 @@ img {
    
     margin-left: 43%;
     margin-top:-99%;
+    cursor: pointer;
 
 }
 
