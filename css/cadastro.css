@@ -7,6 +7,17 @@ body {
     font-family: sans-serif;
     background-color: #111135;
 }
+h1 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.formulario__titulo {
+    text-align: center;
+    font-size: 25px;
+    color:#111135;
+}
+
 .formulario {
 
     width: 50%;
@@ -56,4 +67,215 @@ body {
     color: white;
     cursor: pointer;
     border: none;
+}
+
+@media screen and (min-width:300px) and (max-width:450px) {
+    body {
+        background-color: #111135;
+    }
+    h1 {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 12%;
+        color: white;
+    }
+    .formulario__titulo{
+        text-align: center;
+        font-size: 25px;
+        margin-top: 12%;
+        color: #111135;
+        
+    }
+    .formulario {
+
+        width: 85%;
+        height: 350px;
+        background-color: rgb(180, 199, 216);
+        margin: auto;
+        margin-top:15%;
+        padding-top: 1%;
+        box-shadow: 0 0 20px 1px;
+        position: relative;
+    }
+    .formulario__titulo {
+        text-align: center;
+        font-size: 28px;
+        margin-top: 8%;
+      
+        
+    }
+    .formulario_label, .formulario_input, .formulario_submit {
+        display: block;
+        width: 80%;
+        height: 10%;
+        margin-top: 5%;
+        margin-left: 9.5%;
+        font-size: 1.3rem;
+        
+    }
+    
+    .formulario_input {
+        border: 1px solid rgb(10, 10, 10);
+        background:transparent;
+        padding: 20px;
+        margin-top:8%;
+        margin-bottom: 10%;
+    }
+    
+    
+    
+    
+    .formulario_label{
+        padding-left: 3%;
+        position: absolute;
+        
+        z-index: -20;
+        background: transparent;
+    }
+    
+    .formulario_submit {
+        background-color: #111135;
+        padding: 2%;
+        color: white;
+        cursor: pointer;
+        border: none;
+    }
+    
+}
+
+@media screen and (min-width:451px) and (max-width:800px){
+    body {
+        background-color: rgb(36, 110, 206);
+    }
+    h1 {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 12%;
+        color: black;
+    }
+    .formulario {
+
+        width: 85%;
+        height: 550px;
+        background-color: rgba(196, 203, 209, 0.836);
+        margin: auto;
+        margin-top:25%;
+        padding-top: 1%;
+        box-shadow: 0 0 20px 1px;
+        position: relative;
+    }
+    .formulario__titulo {
+        text-align: center;
+        font-size: 28px;
+        margin-top: 8%;
+        color: black;
+      
+        
+    }
+    .formulario_label, .formulario_input, .formulario_submit {
+        display: block;
+        width: 80%;
+        height: 12%;
+        margin-top: 5%;
+        margin-left: 9.5%;
+        font-size: 1.3rem;
+        
+    }
+    
+    .formulario_input {
+        border: 1px solid rgb(10, 10, 10);
+        background:transparent;
+        padding: 20px;
+        margin-top:8%;
+        margin-bottom: 10%;
+    }
+    
+    
+    
+    
+    .formulario_label{
+        padding-left: 3%;
+        position: absolute;
+        
+        z-index: -20;
+        background: transparent;
+    }
+    
+    .formulario_submit {
+        background-color: #111135;
+        margin-top: 15%;
+        padding: 2%;
+        color: white;
+        cursor: pointer;
+        border: none;
+    }
+}
+
+@media screen and (min-width:801px) and (max-width:1200px){
+    body {
+        background-color:#111135;
+    }
+    h1 {
+        text-align: center;
+        font-size: 65px;
+        margin-top: 10%;
+        color:wheat;
+    }
+    .formulario {
+
+        width: 90%;
+        height: 850px;
+        background-color: rgba(196, 203, 209, 0.836);
+        margin: auto;
+        margin-top:10%;
+        padding-top: 1%;
+        box-shadow: 0 0 20px 1px;
+        position: relative;
+    }
+    .formulario__titulo {
+        text-align: center;
+        font-size: 48px;
+        margin-top: 8%;
+        color: black;
+      
+        
+    }
+    .formulario_label, .formulario_input, .formulario_submit {
+        display: block;
+        width: 80%;
+        height: 12%;
+        margin-top: 5%;
+        margin-left: 9.5%;
+        font-size: 1.3rem;
+        
+    }
+    
+    .formulario_input {
+        border: 1px solid rgb(10, 10, 10);
+        background:transparent;
+        padding: 20px;
+        margin-top:8%;
+        margin-bottom: 10%;
+    }
+    
+    
+    
+    
+    .formulario_label{
+        padding-left: 3%;
+        position: absolute;
+        
+        z-index: -20;
+        background: transparent;
+    }
+    
+    .formulario_submit {
+        background-color: #111135;
+        font-size: 55px;
+        margin-top: 15%;
+        padding: 2%;
+        color: white;
+        cursor: pointer;
+        border: none;
+    }
 }
