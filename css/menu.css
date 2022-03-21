@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    display: flex;
+    background-color:#111135 ;
+    width: 300%;
+    height: 100%;
+   
+}
+h2 {
+   
+    margin-top: 5%;
+    text-align: center;
+    font-size: 50px;
+    color: blanchedalmond;
+}
+h3 {
+    color: blanchedalmond;
+}
+
+img {
+    margin-top: 0.5%;
+    margin-left: -1%;
+    width: 15%;
+    height: 15%;
+}
+
+
+#txtDashboard {
+    margin-left: 4%;
+    font-size: 35px;
+}
+.financeiro {
+    margin-left: 5%;
+    margin-top: 15%;
+    cursor: pointer;
+}
+
+
+#financeiro {
+    margin-left: 2%;
+}
+.cadastroProduto {
+    width: 1500px;
+    height: 1500px;
+    margin-left: 74%;
+    margin-top: -18%;
+    cursor: pointer;
+    
+}
+
+#cadastroProduto {
+    margin-left: 3%;
+    padding-top: 1%;
+}
+#cadastrarProduto {
+    font-size: 35px;
+}
+
+.aberturaCaixa {
+    margin-left: 43%;
+    margin-top:-99%;
+    cursor: pointer;
+
+}
+#txtAbrirCaixa {
+    font-size: 35px;
+}
+
+#aberturaCaixa {
+    width: 1460px;
+    height: 1460px;
+  
+}
