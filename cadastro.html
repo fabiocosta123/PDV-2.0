@@ -12,18 +12,19 @@
     <form action="" class="formulario">
         <h1 class="formulario__titulo">Insira seus dados</h1>
         <label for="" class="formulario_label"></label>
-        <input type="text" class="formulario_input" placeholder="Seu nome">
+        <input type="text" class="formulario_input" id="nome" placeholder="Seu nome">
 
         <label for="" class="formulario_label"></label>
-        <input type="text" class="formulario_input" placeholder="Crie um usuário">
+        <input type="text" class="formulario_input" id="usuario" placeholder="Crie um usuário">
 
         <label for="" class="formulario_label"></label>
-        <input type="text" class="formulario_input" placeholder="Crie uma senha">
+        <input type="text" class="formulario_input" id="senha" placeholder="Crie uma senha">
 
-        <input type="submit" class="formulario_submit" value="Cadastrar">
+        <input type="submit" class="formulario_submit" value="Cadastrar" onclick="cadastrar()">
 
         
     </form>
+    <script src="cadastro.js"></script>  
     
 </body>
 </html>
