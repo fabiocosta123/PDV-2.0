@@ -1,7 +1,12 @@
-localStorage.setItem('cadastro', 'pessoas')
+let nome = document.querySelector('#nome')
+let usuario = document.querySelector('#usuario')
+let senha = document.querySelector('#senha')
+let confirmaSenha = document.querySelector('#confirmaSenha')
+
+nome.addEventListener('keyup', ()=> {
+    
+})
 
 function cadastrar(){
-    let nome = document.getElementById('nome')
-    let usuario = document.getElementById('usuario')
-    let senha = document.getElementById('senha')
+
 }
