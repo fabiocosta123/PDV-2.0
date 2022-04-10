@@ -47,11 +47,11 @@ class Produto {
             td_preco.innerText = this.arrayProdutos[i].preço
 
             let imgEdit = document.createElement('img')
-            imgEdit.src = 'img/editar-arquivo.png'
+            imgEdit.src = '/img/editar-arquivo.png'
             imgEdit.setAttribute('onclick', 'produto.editar('+ JSON.stringify(this.arrayProdutos[i]) + ')')
 
             let imgExcluir = document.createElement('img')
-            imgExcluir.src = 'img/excluir.png'
+            imgExcluir.src = '/img/excluir.png'
             imgExcluir.setAttribute('onclick','produto.deletar('+ this.arrayProdutos[i].id +')')
 
             td_acoes.appendChild(imgEdit)
