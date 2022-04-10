@@ -1,4 +1,4 @@
-# PDV2.0 - Desenvolvimento
+# PDV2.0 - Em Desenvolvimento
 Projeto pensado para registrar vendas e cadastrar produtos;
 Para uso do comerciante informal ou formal que deseja apenas registrar vendas e 
 cadastrar produtos sem controlar estoque (não atende ao fisco);
