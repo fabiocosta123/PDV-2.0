@@ -13,5 +13,5 @@ function cadastrar() {
 }
 
 
-
+export default cadastrar()
 
