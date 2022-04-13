@@ -42,6 +42,7 @@ input{
     justify-items: center;
     width: 30px;
     height: 35px;
+    font-size: 1.5rem;
 
 }
 
@@ -54,7 +55,7 @@ input{
  
     color:#0000FF;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 2.5rem;
     cursor: pointer;
 }
 .login {
