@@ -9,7 +9,7 @@ body {
     margin-left: 2.5%;
     margin-top: 2%;
     width: 95%;
-    height: 700px;
+    
     background-color: #111135;
     border: solid 1px rgb(235, 229, 229);
     
@@ -43,7 +43,7 @@ input#codigo {
 }
 input#quantidade {
     text-align: center;
-    margin-left: 8.5%;
+    margin-left: 10.5%;
     width: 8%;
     height: 30px;
     
@@ -80,7 +80,8 @@ button:hover#cadastrar {
 }
 
 #adiciona{
-    margin-left: 6%;
+    
+    margin-left: 0.5%;
     border: 0;
     padding: 10px;
     outline: 0;
@@ -96,7 +97,7 @@ button:hover#adiciona{
     background-color: #bd9eda;
 }
 #nomeProduto {
-    margin-left: 3%;
+    margin-left: 5%;
     width: 40%;
     height: 30px;
     
@@ -141,3 +142,4 @@ footer {
     color: rgb(243, 235, 235);
     margin-left: 3%;
 }
+
