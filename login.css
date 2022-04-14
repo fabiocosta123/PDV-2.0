@@ -88,7 +88,9 @@ h3#txtCadastrar{
     margin-left: 24%;
     
 }
-
+button:hover#cadastrar {
+    background-color: #bd9eda;
+}
 #cadastrar {
     display: flex;
     position: relative;
