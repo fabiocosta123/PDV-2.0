@@ -55,7 +55,7 @@ input{
  
     color:#0000FF;
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     cursor: pointer;
 }
 .login {
@@ -81,12 +81,23 @@ h3#txtCadastrar{
     padding-left: 63%;
     color: bisque;
 }
+#recuperarSenha{
+    margin-top: 2%;
+    font-size:1.5rem;
+    color: white;
+    margin-left: 24%;
+    
+}
 
 #cadastrar {
-    font-size: 30px;
-    color: white;
-    padding-top: 2%;
-    margin-left: 65%;
+    display: flex;
+    position: relative;
+    height:1.9rem;
+    font-size: 1.5rem;
+    color: #0000ff;
+    background-color: #eaeaed;
+    margin-top:-2%;
+    margin-left:65.5%;
     cursor: pointer;
   
 }
