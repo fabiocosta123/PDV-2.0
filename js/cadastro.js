@@ -10,8 +10,9 @@ function cadastrar() {
     }
     cad.push(cadastrar)
     localStorage.cad = JSON.stringify(cad)
+    
 }
 
 
-export default cadastrar()
+//export default cadastrar()
 
