@@ -137,6 +137,7 @@ button:hover#adiciona {
 }
 
 #btnFecharCaixa {
+    display: flex;
     cursor: pointer;
     background-color: #0000ff;
     color: white;
@@ -144,7 +145,7 @@ button:hover#adiciona {
     border: 0;
     padding: 0.5%;
     outline: 0;
-    margin-top: 2%;
+    margin-top: -3%;
     margin-left: 86.9%;
     border-radius: 3px;
     font-weight: lighter;
@@ -152,6 +153,27 @@ button:hover#adiciona {
 }
 
 button:hover#btnFecharCaixa {
+    background-color: #bd9eda;
+}
+
+
+#pagar{
+    cursor: pointer;
+    background-color: #0000ff;
+    color: white;
+    font-size: 1.5rem;
+    border: 0;
+    padding: 0.5%;
+    outline: 0;
+    position:relative;
+    margin-top:0.5%;
+    margin-left: 30%;
+    border-radius: 3px;
+    font-weight: lighter;
+    transition: all ease 0.4s;
+}
+
+button:hover#pagar{
     background-color: #bd9eda;
 }
 
@@ -172,13 +194,36 @@ footer {
     margin-left: 3%;
 }
 
-@media screen and (max-width:1340px) {
-    #adiciona {
-        margin-left: 0.5%;
-    }
+@media screen and (max-width:1400px) {
+ 
 
     #nomeProduto {
         margin-left: 3%;
     }
+    #btnFecharCaixa {
+        margin-left:86%;
+    }
 
 }
+
+@media screen and (max-width:1200px) {
+    #codigoQuantidade{
+        display:flex;
+        
+    }
+
+    #adiciona {
+        margin-right:3%;
+    }
+    #cadastrar{
+        margin-top:-4.5%
+    }
+        
+    
+   
+    #btnFecharCaixa {
+        margin-left:84.5%;
+    }
+
+}
+
