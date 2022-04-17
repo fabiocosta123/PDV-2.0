@@ -8,7 +8,7 @@
 body {
     margin-left: 2.5%;
     margin-top: 2%;
-    width: 95%;
+    width: 91%;
 
     background-color: #111135;
     border: solid 1px rgb(235, 229, 229);
@@ -203,6 +203,82 @@ footer {
 
     #btnFecharCaixa {
         margin-left: 84%;
+    }
+
+}
+
+@media screen and (max-width:1300px) {
+   
+
+    #nomeProduto {
+      margin-right: -2%;
+    }
+
+
+
+    #btnFecharCaixa {
+        margin-left: 82%;
+    }
+
+    #pagar{
+        margin-left:35%;
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+  
+
+    #cadastrar {
+        margin-top: -3%;
+    }
+
+    input#quantidade {
+        width: 6%;
+        margin-left:15%;
+    }
+
+    #nomeProduto {
+        width: 36.5%;
+    }
+
+
+
+    #btnFecharCaixa {
+        margin-left: 84%;
+    }
+
+    #pagar{
+        margin-left:43%;
+    }
+
+}
+
+
+@media screen and (max-width:1100px) {
+  
+
+    #cadastrar {
+        margin-top: -3.5%;
+    }
+
+    #nomeProduto {
+        width: 36.5%;
+    }
+
+    input#quantidade {
+        width: 4%;
+        margin-left:14%;
+    }
+
+
+
+    #btnFecharCaixa {
+        margin-left: 82%;
+    }
+
+    #pagar{
+        margin-left:43%;
     }
 
 }
