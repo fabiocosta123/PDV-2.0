@@ -194,15 +194,15 @@ footer {
     margin-left: 3%;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1400px) {
 
 
     #nomeProduto {
-        margin-left: 3%;
+        margin-left: 1%;
     }
 
     #btnFecharCaixa {
-        margin-left: 86%;
+        margin-left: 84%;
     }
 
 }
