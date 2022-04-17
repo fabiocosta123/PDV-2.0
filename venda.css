@@ -157,7 +157,7 @@ button:hover#btnFecharCaixa {
 }
 
 
-#pagar{
+#pagar {
     cursor: pointer;
     background-color: #0000ff;
     color: white;
@@ -165,15 +165,15 @@ button:hover#btnFecharCaixa {
     border: 0;
     padding: 0.5%;
     outline: 0;
-    position:relative;
-    margin-top:0.5%;
+    position: relative;
+    margin-top: 0.5%;
     margin-left: 30%;
     border-radius: 3px;
     font-weight: lighter;
     transition: all ease 0.4s;
 }
 
-button:hover#pagar{
+button:hover#pagar {
     background-color: #bd9eda;
 }
 
@@ -195,35 +195,48 @@ footer {
 }
 
 @media screen and (max-width:1400px) {
- 
+
 
     #nomeProduto {
         margin-left: 3%;
     }
+
     #btnFecharCaixa {
-        margin-left:86%;
+        margin-left: 86%;
     }
 
 }
 
-@media screen and (max-width:1200px) {
-    #codigoQuantidade{
-        display:flex;
-        
+@media screen and (max-width:1000px) {
+    #codigoQuantidade {
+        display: flex;
+        margin-left:5%;
+
     }
 
     #adiciona {
-        margin-right:3%;
+        margin-right: 5%;
     }
-    #cadastrar{
-        margin-top:-4.5%
+
+    #cadastrar {
+        margin-top: -5.5%
     }
-        
-    
-   
+
+
+
     #btnFecharCaixa {
-        margin-left:84.5%;
+        margin-left: 78.5%;
     }
+
+    #pagar{
+        margin-top:3%;
+        margin-left:43%
+    }
+
+    #preco{
+        margin-right:2%;
+    }
+
+   
 
 }
-
