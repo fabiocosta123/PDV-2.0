@@ -7,11 +7,15 @@ function incluirVenda() {
 
     let incluirVenda = []
     incluirVenda = JSON.parse(localStorage.getItem('arrayProdutos'))
-
+   
     incluirVenda.forEach(element => {
         if (codigo.value == element.id) {
-            function produto() {
-                nomeProduto = element.nameProduto
+            function produto() {                               //colocar de forma dinamica um valor em um campo
+              let recebeProduto = element.nameProduto
+              
+              document.getElementById('nomeProduto') = recebeProduto
+              
+            
             }
         } else {
             alert('tente outra vez')
