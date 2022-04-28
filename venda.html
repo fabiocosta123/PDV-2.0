@@ -1,79 +1,89 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="venda.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="venda.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <title>PDV</title>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <section>
-            <header id="nomeSistema">
-                <h1>V8 System</h1>
-            </header>
+      <section>
+        <header id="nomeSistema">
+          <h1>V8 System</h1>
+        </header>
 
-            <div id="codigoQuantidade">
+        <div id="codigoQuantidade">
+          <label for="quantidade"></label>
+          <input
+            type="number"
+            name="quantidade"
+            id="quantidade"
+            placeholder="Qtde"
+          />
 
-                <label for="quantidade"></label>
-                <input type="number" name="quantidade" id="quantidade" placeholder="Qtde">
+          <label for="codigo"></label>
+          <input type="number" name="codigo" id="codigo" placeholder="Código" />
 
-                <label for="codigo"></label>
-                <input type="number" name="codigo" id="codigo" placeholder="Código">
-                
-                <input type="text"  name="produto" id="nomeProduto" placeholder="Nome do Produto" onkeyup="produto()">
-                
-                <input type="number" name="preco" id="preco" placeholder="preco">
-                
-                <button id="adiciona" value="Adicionar" onclick= "incluirVenda()">Incluir Venda</button>
-              
+          <input
+            type="text"
+            name="produto"
+            id="nomeProduto"
+            placeholder="Nome do Produto"
+            onkeyup="produto()"
+          />
 
-               
-            </div>
-                
-            <div id="botao">
-                <button id="cadastrar" value="Cadastrar" onclick="window.open('cadastroProduto.html','_blank')">
-                    Cadastrar Produto</button>
-            </div>
-            
+          <input type="number" name="preco" id="preco" placeholder="preco" />
 
-          
-        </section>
-
-        <div class="content">
-            <table  id="tabela">
-                <thead id="coluna">
-                    <th id="id">ID</th>
-                    <th id="produto">Produto</th>
-                    <th id="valor">Valor</th>
-                    <th id="acoes">Ações</th>
-                </thead>
-                <tbody id="corpo">
-            
-                </tbody>
-            </table>
-            
-        </div>   
-
-        <div>
-            <button id="pagar" value="pagar">Pagar</button>
-        </div>
-        <div>
-            <button id="btnFecharCaixa" value="fecharCaixa">Fechar Caixa</button>
+          <button id="adiciona" value="Adicionar" onclick="incluirVenda()">
+            Incluir Venda
+          </button>
         </div>
 
-        
-        
+        <div id="botao">
+          <button
+            id="cadastrar"
+            value="Cadastrar"
+            onclick="window.open('cadastroProduto.html','_blank')"
+          >
+            Cadastrar Produto
+          </button>
+        </div>
+      </section>
+
+      <div class="content">
+        <table id="tabela">
+          <thead id="coluna">
+            <th id="id">ID</th>
+            <th id="produto">Produto</th>
+            <th id="valor">Valor</th>
+            <th id="acoes">Ações</th>
+          </thead>
+          <tbody id="corpo"></tbody>
+        </table>
+      </div>
+
+      <div>
+        <button
+          id="pagar"
+          value="pagar"
+          onclick="window.open('pagar.html','__self')"
+        >
+          Pagar
+        </button>
+      </div>
+      <div>
+        <button id="btnFecharCaixa" value="fecharCaixa">Fechar Caixa</button>
+      </div>
     </main>
 
-    <script src="venda.js"></script>  
-</body>
-<footer>
+    <script src="venda.js"></script>
+  </body>
+  <footer>
     <h3 id="totalPagar">Total à pagar r$ 0.00</h3>
-  
-</footer>
+  </footer>
 </html>
