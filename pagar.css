@@ -35,14 +35,14 @@ main {
   border: 1px solid white;
   display: flex;
 
-  padding: 5%;
+  padding: 2%;
   border-radius: 30px;
 }
 
 button {
   font-size: 1rem;
   margin-top: 350%;
-  margin-left: -165%;
+  margin-left: -105%;
   height: 15%;
   width: 200%;
   background-color: #111135;
@@ -64,14 +64,17 @@ aside {
   margin-top: 14%;
   height: 80%;
   grid-area: a;
-  padding: 15%;
+  padding: 12%;
   border-radius: 30px;
 }
 
 li {
   list-style-type: none;
+  cursor: pointer;
 }
-
+li:hover {
+  background-color: #0000ff;
+}
 footer {
   justify-content: center;
   display: flex;
@@ -83,4 +86,9 @@ footer {
   border-radius: 30px;
   border: 1px solid white;
   margin-bottom: 1%;
+}
+
+input {
+  display: flex;
+  height: 10%;
 }
