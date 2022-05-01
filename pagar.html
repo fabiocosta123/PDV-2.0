@@ -12,9 +12,10 @@
       <header></header>
       <main>
         <div id="dadosRecebimento">
-          <label for="">Aqui vai o total:</label></br>
+          <label for="">TOTAL:</label>
+          <input type="number" value="total" name="total"></br>
 
-          <label for="">Valor Recebido:</label>
+          <label for="">RECEBIDO:</label>
           <input
             type="number"
             placeholder="Digite o valor recebido"
@@ -22,26 +23,32 @@
             name="receber"
           /></br>
           <div>
-            Falta:
-            <p>Aqui fica o valor faltante</p>
+            FALTA:
+            <p id="faltante">Aqui fica o valor faltante</p>
           </div>
           
 
-          <div id="troco">Troco:
+          <div id="troco">TROCO:
             <p>Aqui vai o troco</p>
           </div>
+
         </div>
       </main>
       <aside>
         <ul>
           <li>1 - Dinheiro</li>
-          <li>2 - Cartão de Crédito</li>
+          <li>2 - Crédito</li>
           <li>3 - Cartão de Débito</li>
           <li>4 - Pix</li>
-        </ul>
-      </aside>
-      <footer></footer>
+        </ul></br>
+        <div>
+          <button type="submit">RECEBER</button>
+        </div>
+        </aside>
+      <footer>
+        <p id="agradecimento">Obrigado e volte sempre !!!</p>
+      </footer>
     </div>
-    <script src=""></script>
+    <script src="pagar.js"></script>
   </body>
 </html>
