@@ -1,3 +1,4 @@
+import 
 function incluirVenda() {
     let quantidade = document.querySelector('#quantidade')
     let codigo = document.querySelector('#codigo')
