@@ -1,4 +1,4 @@
-import 
+import {arrayProdutos} from "./cadastroProduto"
 function incluirVenda() {
     let quantidade = document.querySelector('#quantidade')
     let codigo = document.querySelector('#codigo')

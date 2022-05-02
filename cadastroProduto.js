@@ -12,7 +12,7 @@ class Produto {
         this.adicionar(produto);
       } else [this.atualizar(this.editId, produto)];
     }
-
+    localStorage.produtos = JSON.stringify(this.arrayProdutos);
     this.listaTabela();
     this.cancelar();
   }
@@ -57,7 +57,6 @@ class Produto {
     produto.preço = parseFloat(produto.preço);
     this.arrayProdutos.push(produto);
     this.id++;
-    localStorage.arrayProdutos = JSON.stringify(this.arrayProdutos);
   }
 
   editar(dados) {
@@ -122,5 +121,3 @@ class Produto {
 }
 
 let produto = new Produto();
-
-export default this.arrayProdutos;
