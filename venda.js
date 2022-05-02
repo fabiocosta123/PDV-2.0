@@ -7,7 +7,7 @@ function incluirVenda() {
   let preco = document.querySelector("#preco").value;
   let incluirVenda = [];
   let txtPagar = document.querySelector("#totalPagar");
-
+  //está inserindo valores no rodapé <total a pagar>, falta fazer a soma do total a pagar
   let pagar = quantidade * preco;
   let tPagar = 0;
   tPagar += pagar;
