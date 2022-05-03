@@ -1,4 +1,4 @@
-localstorage.getItem(produtos);
+//localstorage.getItem(produtos);
 
 function incluirVenda() {
   let quantidade = document.querySelector("#quantidade").value;
