@@ -1,318 +1,265 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-
 
 body {
-    margin-left: 2.5%;
-    margin-top: 2%;
-    width: 91%;
+  margin-left: 2.5%;
+  margin-top: 2%;
+  width: 91%;
 
-    background-color: #111135;
-    border: solid 1px rgb(235, 229, 229);
-
+  background-color: #111135;
+  border: solid 1px rgb(235, 229, 229);
 }
 
-
-
-
 header h1 {
-    text-align: center;
-    color: rgb(252, 252, 252);
-    margin-top: 2%;
-    font-size: 50px;
+  text-align: center;
+  color: rgb(252, 252, 252);
+  margin-top: 2%;
+  font-size: 50px;
 }
 
 div#codigoQuantidade {
-    margin-top: 3%;
-    margin-left: 5%;
-
-
-
-
+  margin-top: 3%;
+  margin-left: 5%;
 }
 
 input#codigo {
-    margin-left: 3%;
-    text-align: center;
-    color: rgba(148, 76, 43, 0.651);
-    width: 4%;
-    height: 30px;
-
+  margin-left: 3%;
+  text-align: center;
+  color: rgba(148, 76, 43, 0.651);
+  width: 4%;
+  height: 30px;
 }
 
 input#quantidade {
-    text-align: center;
-    margin-left: 10.5%;
-    width: 8%;
-    height: 30px;
+  text-align: center;
+  margin-left: 10.5%;
+  width: 8%;
+  height: 30px;
 
-    border: 1px solid #ccc;
-    outline: 0;
-
+  border: 1px solid #ccc;
+  outline: 0;
 }
 
 #preco {
-    margin-left: 5%;
-    height: 30px;
+  margin-left: 5%;
+  height: 30px;
 }
 
 #botao {
-    display: flex;
-
+  display: flex;
 }
 
 #cadastrar {
-    cursor: pointer;
-    margin-left: 3%;
-    margin-top: -2.3%;
-    border: 0;
-    padding: 10px;
-    outline: 0;
-    background-color: #0000ff;
-    color: #fff;
-    border-radius: 3px;
-    font-weight: lighter;
-    transition: all ease 0.4s;
-
-
+  cursor: pointer;
+  margin-left: 3%;
+  margin-top: -2.3%;
+  border: 0;
+  padding: 10px;
+  outline: 0;
+  background-color: #0000ff;
+  color: #fff;
+  border-radius: 3px;
+  font-weight: lighter;
+  transition: all ease 0.4s;
 }
 
 button:hover#cadastrar {
-    background-color: #bd9eda;
+  background-color: #bd9eda;
 }
 
 #adiciona {
-    cursor: pointer;
-    margin-left: 1.5%;
-    border: 0;
-    padding: 10px;
-    outline: 0;
-    background-color: #0000ff;
-    color: #fff;
-    border-radius: 3px;
-    font-weight: lighter;
-    transition: all ease 0.4s;
-
+  cursor: pointer;
+  margin-left: 1.5%;
+  border: 0;
+  padding: 10px;
+  outline: 0;
+  background-color: #0000ff;
+  color: #fff;
+  border-radius: 3px;
+  font-weight: lighter;
+  transition: all ease 0.4s;
 }
 
 button:hover#adiciona {
-    background-color: #bd9eda;
+  background-color: #bd9eda;
 }
 
 #nomeProduto {
-    margin-left: 5%;
-    width: 40%;
-    height: 30px;
-
-
+  margin-left: 5%;
+  width: 40%;
+  height: 30px;
 }
 
 .content {
-    display: flex;
-    width: 95%;
-    height: 20rem;
-    background-color: rgb(235, 227, 227);
-    border: 1px solid black;
-    margin-left: 3%;
-    margin-top: 5%;
+  display: flex;
+  width: 95%;
+  height: 20rem;
+  background-color: rgb(235, 227, 227);
+  border: 1px solid black;
+  margin-left: 3%;
+  margin-top: 5%;
 }
 
-
-
-
 #tabela {
-    width: 100%;
-    font-size: 30px;
-
-
+  width: 100%;
+  font-size: 30px;
 }
 
 #coluna {
-    width: 100%;
-    height: 20px;
-    padding-left: 30%;
+  width: 100%;
+  height: 20px;
+  padding-left: 30%;
 }
 
 #btnFecharCaixa {
-    display: flex;
-    cursor: pointer;
-    background-color: #0000ff;
-    color: white;
-    font-size: 1.5rem;
-    border: 0;
-    padding: 0.5%;
-    outline: 0;
-    margin-top: -3%;
-    margin-left: 86.9%;
-    border-radius: 3px;
-    font-weight: lighter;
-    transition: all ease 0.4s;
+  display: flex;
+  cursor: pointer;
+  background-color: #0000ff;
+  color: white;
+  font-size: 1.5rem;
+  border: 0;
+  padding: 0.5%;
+  outline: 0;
+  margin-top: -3%;
+  margin-left: 86.9%;
+  border-radius: 3px;
+  font-weight: lighter;
+  transition: all ease 0.4s;
 }
 
 button:hover#btnFecharCaixa {
-    background-color: #bd9eda;
+  background-color: #bd9eda;
 }
 
-
 #pagar {
-    cursor: pointer;
-    background-color: #0000ff;
-    color: white;
-    font-size: 1.5rem;
-    border: 0;
-    padding: 0.5%;
-    outline: 0;
-    position: relative;
-    margin-top: 0.5%;
-    margin-left: 30%;
-    border-radius: 3px;
-    font-weight: lighter;
-    transition: all ease 0.4s;
+  cursor: pointer;
+  background-color: #0000ff;
+  color: white;
+  font-size: 1.5rem;
+  border: 0;
+  padding: 0.5%;
+  outline: 0;
+  position: relative;
+  margin-top: 0.5%;
+  margin-left: 35%;
+  border-radius: 3px;
+  font-weight: lighter;
+  transition: all ease 0.4s;
 }
 
 button:hover#pagar {
-    background-color: #bd9eda;
+  background-color: #bd9eda;
 }
 
-
-
-
-
 #coluna {
-    padding: 15% 0;
+  padding: 15% 0;
 }
 
 footer {
+  display: flex;
+  position: relative;
+  margin-top: -2%;
+  font-size: 2rem;
+  color: rgb(243, 235, 235);
+  margin-left: 3%;
+}
+
+@media screen and (max-width: 1400px) {
+  #nomeProduto {
+    margin-left: 1%;
+  }
+
+  #btnFecharCaixa {
+    margin-left: 84%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  #nomeProduto {
+    margin-right: -2%;
+  }
+
+  #btnFecharCaixa {
+    margin-left: 82%;
+  }
+
+  #pagar {
+    margin-left: 35%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #cadastrar {
+    margin-top: -3%;
+  }
+
+  input#quantidade {
+    width: 6%;
+    margin-left: 15%;
+  }
+
+  #nomeProduto {
+    width: 36.5%;
+  }
+
+  #btnFecharCaixa {
+    margin-left: 84%;
+  }
+
+  #pagar {
+    margin-left: 43%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  #cadastrar {
+    margin-top: -3.5%;
+  }
+
+  #nomeProduto {
+    width: 36.5%;
+  }
+
+  input#quantidade {
+    width: 4%;
+    margin-left: 14%;
+  }
+
+  #btnFecharCaixa {
+    margin-left: 82%;
+  }
+
+  #pagar {
+    margin-left: 43%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #codigoQuantidade {
     display: flex;
-    position: relative;
-    margin-top: -2%;
-    font-size: 2.0rem;
-    color: rgb(243, 235, 235);
-    margin-left: 3%;
-}
+    margin-left: 5%;
+  }
 
-@media screen and (max-width:1400px) {
+  #adiciona {
+    margin-right: 5%;
+  }
 
+  #cadastrar {
+    margin-top: -5.5%;
+  }
 
-    #nomeProduto {
-        margin-left: 1%;
-    }
+  #btnFecharCaixa {
+    margin-left: 78.5%;
+  }
 
-    #btnFecharCaixa {
-        margin-left: 84%;
-    }
+  #pagar {
+    margin-top: 3%;
+    margin-left: 43%;
+  }
 
-}
-
-@media screen and (max-width:1300px) {
-   
-
-    #nomeProduto {
-      margin-right: -2%;
-    }
-
-
-
-    #btnFecharCaixa {
-        margin-left: 82%;
-    }
-
-    #pagar{
-        margin-left:35%;
-    }
-
-}
-
-@media screen and (max-width:1200px) {
-  
-
-    #cadastrar {
-        margin-top: -3%;
-    }
-
-    input#quantidade {
-        width: 6%;
-        margin-left:15%;
-    }
-
-    #nomeProduto {
-        width: 36.5%;
-    }
-
-
-
-    #btnFecharCaixa {
-        margin-left: 84%;
-    }
-
-    #pagar{
-        margin-left:43%;
-    }
-
-}
-
-
-@media screen and (max-width:1100px) {
-  
-
-    #cadastrar {
-        margin-top: -3.5%;
-    }
-
-    #nomeProduto {
-        width: 36.5%;
-    }
-
-    input#quantidade {
-        width: 4%;
-        margin-left:14%;
-    }
-
-
-
-    #btnFecharCaixa {
-        margin-left: 82%;
-    }
-
-    #pagar{
-        margin-left:43%;
-    }
-
-}
-
-@media screen and (max-width:1000px) {
-    #codigoQuantidade {
-        display: flex;
-        margin-left:5%;
-
-    }
-
-    #adiciona {
-        margin-right: 5%;
-    }
-
-    #cadastrar {
-        margin-top: -5.5%
-    }
-
-
-
-    #btnFecharCaixa {
-        margin-left: 78.5%;
-    }
-
-    #pagar{
-        margin-top:3%;
-        margin-left:43%
-    }
-
-    #preco{
-        margin-right:2%;
-    }
-
-   
-
+  #preco {
+    margin-right: 2%;
+  }
 }

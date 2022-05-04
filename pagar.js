@@ -8,6 +8,7 @@ function receber() {
     txtTroco.innerHTML = troco.toFixed(2);
   } else if (total > recebido) {
     let falta = total - recebido;
+    alert(`Falta r$ ${falta.toFixed(2)}, informe o valor restante.`);
     txtFalta.innerHTML = falta.toFixed(2);
   }
 }
