@@ -1,4 +1,3 @@
-//localstorage.getItem(produtos);
 let tPagar = 0;
 function incluirVenda() {
   let quantidade = document.querySelector("#quantidade").value;
@@ -9,22 +8,6 @@ function incluirVenda() {
   let txtPagar = document.querySelector("#totalPagar");
   //está inserindo valores no rodapé <total a pagar>, falta fazer a soma do total a pagar
   let pagar = quantidade * preco;
-
   tPagar += pagar;
   txtPagar.innerHTML = `Total a pagar R$ ${tPagar.toFixed(2)}`;
 }
-/*  incluirVenda.forEach(element => {
-        if (codigo.value == element.id) {
-            function produto() {                               //colocar de forma dinamica um valor em um campo
-              let recebeProduto = element.nameProduto
-              
-              document.getElementById('nomeProduto') = recebeProduto
-              
-            
-            }
-        } else {
-            alert('tente outra vez')
-        }
-    });
-}
-*/
