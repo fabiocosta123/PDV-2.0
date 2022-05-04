@@ -24,7 +24,7 @@ header {
   text-align: center;
   padding-top: 2.5%;
   border-radius: 30px;
-  border: 1px solid white;
+  border: 5px solid white;
   grid-area: h;
   margin-top: 1%;
 }
@@ -37,7 +37,7 @@ main {
   height: 80%;
   margin-top: 5%;
   grid-area: m;
-  border: 1px solid white;
+  border: 5px solid white;
   display: flex;
 
   padding: 2%;
@@ -62,7 +62,7 @@ button:hover {
 aside {
   display: flex;
   justify-content: center;
-  border: 1px solid white;
+  border: 5px solid white;
   font-size: 1.5rem;
   color: white;
   background-color: #2e2e58;
@@ -89,7 +89,7 @@ footer {
   padding-top: 1%;
   grid-area: f;
   border-radius: 30px;
-  border: 1px solid white;
+  border: 5px solid white;
   margin-bottom: 1%;
 }
 
