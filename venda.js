@@ -1,3 +1,5 @@
+localStorage.getItem(produtos);
+
 let tPagar = 0;
 function incluirVenda() {
   let quantidade = document.querySelector("#quantidade").value;
