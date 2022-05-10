@@ -1,5 +1,7 @@
 localStorage.getItem(produtos);
+console.log(produtos);
 
+//calcula quantidade x preço
 let tPagar = 0;
 function incluirVenda() {
   let quantidade = document.querySelector("#quantidade").value;
