@@ -15,3 +15,5 @@ function incluirVenda() {
   tPagar += pagar;
   txtPagar.innerHTML = `Total a pagar R$ ${tPagar.toFixed(2)}`;
 }
+
+// função para mostrar itens na tela
