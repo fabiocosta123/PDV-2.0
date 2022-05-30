@@ -1,33 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login.css">
-   
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+
     <title>PDV 2.0</title>
-</head>
-<body>
+  </head>
+  <body>
     <main id="telaLogin">
-        <header id="cabecalho">Entre com seu login e senha</header>
-            
-                <div class="usuario">
-                    <label for="usuario"></label>
-                    <p class="digitarUsuario">Digite seu usuário</p>
-                    <input type="text" id="usuario" name="usuario" placeholder="usuario">
-                    <label for="senha"></label>
-                    <p class="digitarSenha">Digite sua senha</p>
-                    <input type="text" id="senha" name="senha" placeholder="senha">
-                    <button id="btnLogin" type="submit" value="Login" onclick="login()">Login</button>
-                    <div id="recuperarSenha" onclick="">Esqueci minha senha</div>
-                    <div id="cadastrar" onclick="window.open('cadastro.html','_blank')">Cadastre-se</div>
-                </div>
-               
-       
-        
+      <header id="cabecalho">Entre com seu login e senha</header>
+
+      <div class="usuario">
+        <label for="usuario"></label>
+        <p class="digitarUsuario">Digite seu usuário</p>
+        <input type="text" id="usuario" name="usuario" placeholder="usuario" />
+        <label for="senha"></label>
+        <p class="digitarSenha">Digite sua senha</p>
+        <input type="text" id="senha" name="senha" placeholder="senha" />
+        <button id="btnLogin" type="submit" value="Login" onclick="login()">
+          Login
+        </button>
+        <div id="recuperarSenha" onclick="">Não tem conta ? Registre-se</div>
+        <div id="cadastrar" onclick="window.open('cadastro.html','_blank')">
+          Cadastre-se
+        </div>
+      </div>
     </main>
-    
+
     <script src="login.js"></script>
-</body>
+  </body>
 </html>
